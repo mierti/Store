@@ -28,9 +28,4 @@ public class Cart {
         this.quantity = quantity;
     }
 
-
-    @Override
-    public String toString() {
-        return product.getClass().getSimpleName() + " " + quantity;
-    }
 }
